@@ -1,0 +1,9 @@
+{
+    "payment_id": 3001,
+    "order_id": 5001,
+    "user_id": 101,
+    "amount": 1200.50,
+    "payment_method": "Credit Card",
+    "payment_status": "COMPLETED",
+    "processed_at": "2025-03-15T10:30:00.000Z"
+  }

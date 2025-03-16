@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "PaymentProcessed",
+  "fields": [
+    {"name": "payment_id", "type": "int"},
+    {"name": "order_id", "type": "int"},
+    {"name": "user_id", "type": "int"},
+    {"name": "amount", "type": "double"},
+    {"name": "payment_method", "type": "string"},
+    {"name": "payment_status", "type": {"type": "enum", "name": "Status", "symbols": ["PENDING", "COMPLETED", "FAILED"]}},
+    {"name": "processed_at", "type": "string", "logicalType": "timestamp-millis"}
+  ]
+}

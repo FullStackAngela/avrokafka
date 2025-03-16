@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "UserRegistration",
+  "fields": [
+    {"name": "user_id", "type": "int"},
+    {"name": "name", "type": "string"},
+    {"name": "email", "type": "string"},
+    {"name": "created_at", "type": "string", "logicalType": "timestamp-millis"}
+  ]
+}

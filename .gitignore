@@ -1,0 +1,6 @@
+AvroConsumer/bin/*
+AvroProducer/bin/*
+AvroConsumer/obj/*
+AvroProducer/obj/*
+AvroConsumer/out/*
+AvroProducer/out/*
